@@ -52,6 +52,7 @@
 
 ;;;;;;;;;;; Key-bindings ;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(global-set-key (kbd "C-c r") 'revert-buffer)
 (global-set-key (kbd "C-c f") 'find-file-in-project)
 (add-hook 'prog-mode-hook
           (defun my-kill-word-key ()
