@@ -35,8 +35,8 @@
 ;;;;;;;;;;; Theme ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;- Set a default font face
 ;(set-default-font "Inconsolatap-12")
-;(set-default-font "DejaVu Sans Mono-10")
-(set-default-font "Inconsolata-dz-11")
+(set-default-font "DejaVu Sans Mono-10")
+;(set-default-font "Inconsolata-dz-11")
 
 (set-fontset-font (frame-parameter nil 'font) 'han '("WenQuanYi Micro Hei"))
 

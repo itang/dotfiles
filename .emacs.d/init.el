@@ -16,7 +16,10 @@
                                   zenburn-theme
                                   ;slime
                                   clojure-mode clojure-test-mode
-                                  markdown-mode yaml-mode)
+                                  markdown-mode yaml-mode
+                                  scala-mode 
+                                  coffee-mode 
+                                  go-mode)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
