@@ -16,6 +16,8 @@
                                   zenburn-theme
                                   ;slime
                                   clojure-mode clojure-test-mode
+                                  rainbow-delimiters
+                                  ac-slime
                                   markdown-mode yaml-mode
                                   scala-mode 
                                   coffee-mode 
@@ -25,6 +27,17 @@
 (dolist (p my-packages)
   (when (not (package-installed-p p))
     (package-install p)))
+
+;; Colour mach parens and other structure characters to make code easy to follow
+(global-rainbow-delimiters-mode)
+
+;;; Enable undo-tree for everything, so you can M - _ to redo
+(global-undo-tree-mode)
+
+(add-to-list 'load-path "~/.emacs.d/")
+(require 'auto-complete-config)
+(ac-config-default)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -40,3 +53,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
