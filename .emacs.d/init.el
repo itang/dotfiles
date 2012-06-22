@@ -21,7 +21,9 @@
                                   markdown-mode yaml-mode
                                   scala-mode 
                                   coffee-mode 
-                                  go-mode)
+                                  go-mode
+                                  popup
+                                  undo-tree)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
