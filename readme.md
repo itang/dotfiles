@@ -9,7 +9,7 @@
 #### about auto-complete
    
     $ cd ~/.emacs.d
-    $ git clone https://github.com/itang/dotfiles.git
+    $ git clone https://github.com/auto-complete/auto-complete.git
     $ emacs
     M - x load-file auto-complete/etc/install.el
     
