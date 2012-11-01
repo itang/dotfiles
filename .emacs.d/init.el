@@ -16,6 +16,7 @@
                                   zenburn-theme
                                   ;slime
                                   clojure-mode clojure-test-mode
+                                  nrepl ac-nrepl
                                   rainbow-delimiters
                                   ac-slime
                                   markdown-mode yaml-mode
