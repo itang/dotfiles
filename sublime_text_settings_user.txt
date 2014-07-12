@@ -1,0 +1,12 @@
+{
+  "color_scheme": "Packages/Color Scheme - Default/Espresso Libre.tmTheme",
+  //"font_face": "Source Code Pro",
+  "font_size": 10,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+  "Vintage"
+  ],
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true
+}
