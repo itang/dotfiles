@@ -4,5 +4,6 @@
                   [lein-try "0.4.3"]
                   [lein-ancient "0.5.5"]
                   [cloc "0.1.0"]
-                  [lein-typed "0.3.5"]]
+                  [lein-typed "0.3.5"]
+                  [lein-exec "0.3.4"]]
         :signing {:gpg-key "2852B4FF"}}}
